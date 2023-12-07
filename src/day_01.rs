@@ -12,6 +12,7 @@ const NUMBERS_TEXT: &'static [&'static str] = &[
     "nine"
 ];
 
+#[allow(dead_code)]
 pub fn day_01() {
     let sum_numbers = form_numbers_of_digits_and_calc_sum("./input/day_01.txt");
     println!("sum of numbers: {}", sum_numbers);
