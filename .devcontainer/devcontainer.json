@@ -7,7 +7,7 @@
 		"--userns=keep-id"
 	],
 	"containerEnv": {
-		"HOME": "/home/node"
+		"HOME": ""
 	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
