@@ -3,6 +3,12 @@
 {
 	"name": "Rust",
 	"image": "mcr.microsoft.com/devcontainers/rust:latest",
+	"runArgs": [
+		"--userns=keep-id"
+	],
+	"containerEnv": {
+		"HOME": "/home/node"
+	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
