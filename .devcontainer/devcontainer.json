@@ -7,8 +7,13 @@
 		"--userns=keep-id"
 	],
 	"containerEnv": {
-		"HOME": ""
-	}
+		"HOME": "/home/vscode"
+	},
+	"remoteEnv": {
+		"HOME": "/home/vscode"
+	},
+	"containerUser": "vscode",
+	"remoteUser": "vscode"
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
